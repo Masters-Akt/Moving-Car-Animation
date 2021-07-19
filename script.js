@@ -1,5 +1,6 @@
-var audio = document.createElement('audio');
-audio.setAttribute('src', '/sound.mp3');
-audio.loop = true;
-audio.muted = false;
-audio.play();
+var audio = document.createElement("AUDIO");
+audio.src = "./sound.mp3";
+function PlayAudio(){
+    audio.play();
+    audio.loop = true;
+}
