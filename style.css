@@ -36,6 +36,14 @@ body {
     animation: trackAnimation linear 8s infinite;
 }
 
+.playbtn {
+    position: absolute;
+    left: 174px;
+    top: 73px;
+    color: darkgreen;
+    background: cornflowerblue;
+}
+
 .car {
     height: 100px;
     width: 380px;
