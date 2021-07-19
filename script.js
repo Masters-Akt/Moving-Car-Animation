@@ -4,3 +4,6 @@ function PlayAudio(){
     audio.play();
     audio.loop = true;
 }
+function PauseAudio(){
+    audio.pause();
+}
